@@ -1,0 +1,313 @@
+{
+ "gen": 4,
+ "gyms": [
+  [
+   "Falkner",
+   "flying"
+  ],
+  [
+   "Bugsy",
+   "bug"
+  ],
+  [
+   "Whitney",
+   "normal"
+  ],
+  [
+   "Morty",
+   "ghost"
+  ],
+  [
+   "Chuck",
+   "fighting"
+  ],
+  [
+   "Jasmine",
+   "steel"
+  ],
+  [
+   "Pryce",
+   "ice"
+  ],
+  [
+   "Clair",
+   "dragon"
+  ]
+ ],
+ "elite": [
+  [
+   "Will",
+   "psychic"
+  ],
+  [
+   "Koga",
+   "poison"
+  ],
+  [
+   "Bruno",
+   "fighting"
+  ],
+  [
+   "Karen",
+   "dark"
+  ],
+  [
+   "Lance",
+   "dragon"
+  ]
+ ],
+ "starters": [
+  [
+   "chikorita",
+   "bayleef",
+   "meganium"
+  ],
+  [
+   "cyndaquil",
+   "quilava",
+   "typhlosion"
+  ],
+  [
+   "totodile",
+   "croconaw",
+   "feraligatr"
+  ]
+ ],
+ "versions": {
+  "heartgold": "HeartGold",
+  "soulsilver": "SoulSilver"
+ },
+ "locations": {
+  "azalea-town": 1,
+  "bell-tower": 8,
+  "blackthorn-city": 7,
+  "burned-tower": 3,
+  "celadon-city": 9,
+  "cerulean-cave": 9,
+  "cerulean-city": 9,
+  "cherrygrove-city": 0,
+  "cianwood-city": 4,
+  "cinnabar-island": 9,
+  "dark-cave": 0,
+  "digletts-cave": 9,
+  "dragons-den": 7,
+  "ecruteak-city": 3,
+  "embedded-tower": 9,
+  "fuchsia-city": 9,
+  "goldenrod-city": 2,
+  "ice-path": 7,
+  "ilex-forest": 1,
+  "johto-pokemart": null,
+  "johto-route-29": 0,
+  "johto-route-30": 0,
+  "johto-route-31": 0,
+  "johto-route-32": 1,
+  "johto-route-33": 1,
+  "johto-route-34": 2,
+  "johto-route-35": 2,
+  "johto-route-36": 0,
+  "johto-route-37": 3,
+  "johto-route-38": 3,
+  "johto-route-39": 3,
+  "johto-route-42": 3,
+  "johto-route-43": 3,
+  "johto-route-44": 7,
+  "johto-route-45": 7,
+  "johto-route-46": 0,
+  "johto-route-47": 4,
+  "johto-route-48": 5,
+  "johto-safari-zone": 5,
+  "johto-sea-route-40": 4,
+  "johto-sea-route-41": 4,
+  "kanto-power-plant": 9,
+  "kanto-route-1": 9,
+  "kanto-route-10": 9,
+  "kanto-route-11": 9,
+  "kanto-route-12": 9,
+  "kanto-route-13": 9,
+  "kanto-route-14": 9,
+  "kanto-route-15": 9,
+  "kanto-route-16": 9,
+  "kanto-route-17": 9,
+  "kanto-route-18": 9,
+  "kanto-route-2": 9,
+  "kanto-route-22": 9,
+  "kanto-route-24": 9,
+  "kanto-route-25": 9,
+  "kanto-route-26": 8,
+  "kanto-route-27": 8,
+  "kanto-route-28": 9,
+  "kanto-route-3": 9,
+  "kanto-route-4": 9,
+  "kanto-route-5": 9,
+  "kanto-route-6": 9,
+  "kanto-route-7": 9,
+  "kanto-route-8": 9,
+  "kanto-route-9": 9,
+  "kanto-sea-route-19": 9,
+  "kanto-sea-route-20": 9,
+  "kanto-sea-route-21": 9,
+  "kanto-victory-road-1": 8,
+  "lake-of-rage": 3,
+  "mt-moon": 9,
+  "mt-mortar": 3,
+  "mt-silver": 9,
+  "national-park": 2,
+  "new-bark-town": 0,
+  "olivine-city": 3,
+  "pallet-town": 9,
+  "pewter-city": 9,
+  "roaming-johto": 3,
+  "rock-tunnel": 9,
+  "ruins-of-alph": 0,
+  "safari-zone-gate": 5,
+  "saffron-city": 9,
+  "seafoam-islands": 9,
+  "sinjoh-ruins": null,
+  "slowpoke-well": 1,
+  "sprout-tower": 0,
+  "team-rocket-hq": 4,
+  "tohjo-falls": 4,
+  "union-cave": 1,
+  "unknown-all-bugs": null,
+  "unknown-all-poliwag": null,
+  "unknown-all-rattata": null,
+  "vermilion-city": 9,
+  "violet-city": 0,
+  "viridian-city": 9,
+  "viridian-forest": 9,
+  "whirl-islands": 7
+ },
+ "areas": {
+  "Dark Cave (Blackthorn City entrance)": 7,
+  "Union Cave (B2F)": 4,
+  "Slowpoke Well (B1F)": 4,
+  "Mount Mortar (Lower Cave)": 4,
+  "Mount Mortar (B1F)": 4,
+  "Mount Mortar (Upper Cave)": 8
+ },
+ "methods": {
+  "old-rod": 1,
+  "good-rod": 3,
+  "super-rod": 9,
+  "surf": 4,
+  "rock-smash": 3,
+  "headbutt-low": 1,
+  "headbutt-normal": 1,
+  "headbutt-high": 1,
+  "headbutt": 1,
+  "squirt-bottle": 3,
+  "pokeflute": 9
+ },
+ "conditions": {
+  "story-progress-awakened-beasts": 3,
+  "story-progress-zephyr-badge": 1,
+  "story-progress-receive-tm-from-claire": 8,
+  "story-progress-before-national-dex": 0,
+  "story-progress-returned-machine-part": 9,
+  "story-progress-vermilion-copycat": 9,
+  "other-received-kanto-starter": 9,
+  "other-snorlax-11-beat-league": 9,
+  "other-correct-password": 9,
+  "johto-safari-blocks-forest-min-10": 9,
+  "johto-safari-blocks-forest-min-14": 9,
+  "johto-safari-blocks-forest-min-15": 9,
+  "johto-safari-blocks-forest-min-18": 9,
+  "johto-safari-blocks-forest-min-20": 9,
+  "johto-safari-blocks-forest-min-28": 9,
+  "johto-safari-blocks-forest-min-3": 9,
+  "johto-safari-blocks-forest-min-35": 9,
+  "johto-safari-blocks-forest-min-4": 9,
+  "johto-safari-blocks-forest-min-42": 9,
+  "johto-safari-blocks-forest-min-49": 9,
+  "johto-safari-blocks-forest-min-5": 9,
+  "johto-safari-blocks-forest-min-56": 9,
+  "johto-safari-blocks-forest-min-8": 9,
+  "johto-safari-blocks-peak-min-10": 9,
+  "johto-safari-blocks-peak-min-15": 9,
+  "johto-safari-blocks-peak-min-21": 9,
+  "johto-safari-blocks-peak-min-24": 9,
+  "johto-safari-blocks-peak-min-28": 9,
+  "johto-safari-blocks-peak-min-3": 9,
+  "johto-safari-blocks-peak-min-35": 9,
+  "johto-safari-blocks-peak-min-4": 9,
+  "johto-safari-blocks-peak-min-42": 9,
+  "johto-safari-blocks-peak-min-49": 9,
+  "johto-safari-blocks-peak-min-5": 9,
+  "johto-safari-blocks-peak-min-56": 9,
+  "johto-safari-blocks-peak-min-6": 9,
+  "johto-safari-blocks-peak-min-63": 9,
+  "johto-safari-blocks-peak-min-8": 9,
+  "johto-safari-blocks-plains-min-10": 9,
+  "johto-safari-blocks-plains-min-12": 9,
+  "johto-safari-blocks-plains-min-14": 9,
+  "johto-safari-blocks-plains-min-15": 9,
+  "johto-safari-blocks-plains-min-2": 9,
+  "johto-safari-blocks-plains-min-24": 9,
+  "johto-safari-blocks-plains-min-28": 9,
+  "johto-safari-blocks-plains-min-3": 9,
+  "johto-safari-blocks-plains-min-35": 9,
+  "johto-safari-blocks-plains-min-4": 9,
+  "johto-safari-blocks-plains-min-49": 9,
+  "johto-safari-blocks-plains-min-5": 9,
+  "johto-safari-blocks-plains-min-6": 9,
+  "johto-safari-blocks-water-min-10": 9,
+  "johto-safari-blocks-water-min-12": 9,
+  "johto-safari-blocks-water-min-13": 9,
+  "johto-safari-blocks-water-min-14": 9,
+  "johto-safari-blocks-water-min-15": 9,
+  "johto-safari-blocks-water-min-16": 9,
+  "johto-safari-blocks-water-min-18": 9,
+  "johto-safari-blocks-water-min-2": 9,
+  "johto-safari-blocks-water-min-20": 9,
+  "johto-safari-blocks-water-min-24": 9,
+  "johto-safari-blocks-water-min-28": 9,
+  "johto-safari-blocks-water-min-3": 9,
+  "johto-safari-blocks-water-min-35": 9,
+  "johto-safari-blocks-water-min-4": 9,
+  "johto-safari-blocks-water-min-42": 9,
+  "johto-safari-blocks-water-min-49": 9,
+  "johto-safari-blocks-water-min-5": 9,
+  "johto-safari-blocks-water-min-6": 9,
+  "johto-safari-blocks-water-min-7": 9,
+  "johto-safari-blocks-water-min-8": 9,
+  "johto-safari-blocks-water-min-9": 9
+ },
+ "override": {
+  "eevee": [
+   3,
+   "Goldenrod City — gift from Bill (after meeting him in Ecruteak)"
+  ],
+  "ho-oh": {
+   "heartgold": [
+    8,
+    "Bell Tower roof — HeartGold: Clear Bell, after the Kimono Girls; SoulSilver: post-game only (Rainbow Wing)"
+   ],
+   "soulsilver": [
+    9,
+    "Bell Tower — static (post-game)"
+   ]
+  },
+  "lugia": {
+   "heartgold": [
+    9,
+    "Whirl Islands — static (post-game)"
+   ],
+   "soulsilver": [
+    8,
+    "Whirl Islands B3F — SoulSilver: Tidal Bell, after the Kimono Girls; HeartGold: post-game only (Silver Wing)"
+   ]
+  }
+ },
+ "exclude": [
+  "celebi",
+  "mew",
+  "manaphy",
+  "arceus",
+  "jirachi",
+  "deoxys",
+  "darkrai",
+  "shaymin"
+ ],
+ "caveats": "Segments are hand-assigned from route order and HM/badge gates: Old Rod (Route 32) and the Headbutt tutor after badge 1, Good Rod (Olivine), Rock Smash and the SquirtBottle for Sudowoodo after badge 3, Surf after badge 4, Whirlpool, the Ice Path and Blackthorn after badge 7, Waterfall (Route 27 east, Route 26, Victory Road) after badge 8; the Super Rod and all of Kanto, Mt. Silver and Route 28 count as post-game. Kanto and Hoenn starters, Hoenn/Sinnoh Sound radio Pokémon, swarms, Safari Zone Pokémon that need placed blocks and Primo's password eggs also count as post-game. Route 32 onward is placed after the Zephyr Badge, Mahogany/Lake of Rage after badge 3 and Route 48/the Safari Zone after badge 5: earliest access, not the usual story order. Ho-Oh and Lugia are shown before the League, but only the version mascot (Ho-Oh in HeartGold, Lugia in SoulSilver) is available then; the other one is post-game. Pokéwalker, Pokémon Ranger and event Pokémon (Celebi, Arceus and the Sinjoh Ruins legends) are not included."
+}

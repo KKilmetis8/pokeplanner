@@ -1,0 +1,198 @@
+{
+ "gen": 3,
+ "versions": {
+  "firered": "FireRed",
+  "leafgreen": "LeafGreen"
+ },
+ "gyms": [
+  [
+   "Brock",
+   "rock"
+  ],
+  [
+   "Misty",
+   "water"
+  ],
+  [
+   "Lt. Surge",
+   "electric"
+  ],
+  [
+   "Erika",
+   "grass"
+  ],
+  [
+   "Koga",
+   "poison"
+  ],
+  [
+   "Sabrina",
+   "psychic"
+  ],
+  [
+   "Blaine",
+   "fire"
+  ],
+  [
+   "Giovanni",
+   "ground"
+  ]
+ ],
+ "elite": [
+  [
+   "Lorelei",
+   "ice"
+  ],
+  [
+   "Bruno",
+   "fighting"
+  ],
+  [
+   "Agatha",
+   "ghost"
+  ],
+  [
+   "Lance",
+   "dragon"
+  ],
+  [
+   "Rival",
+   null
+  ]
+ ],
+ "starters": [
+  [
+   "bulbasaur",
+   "ivysaur",
+   "venusaur"
+  ],
+  [
+   "charmander",
+   "charmeleon",
+   "charizard"
+  ],
+  [
+   "squirtle",
+   "wartortle",
+   "blastoise"
+  ]
+ ],
+ "locations": {
+  "pallet-town": 0,
+  "kanto-route-1": 0,
+  "viridian-city": 0,
+  "kanto-route-22": 0,
+  "kanto-route-2": 0,
+  "viridian-forest": 0,
+  "kanto-route-3": 1,
+  "mt-moon": 1,
+  "kanto-route-4": 1,
+  "cerulean-city": 1,
+  "kanto-route-24": 1,
+  "kanto-route-25": 1,
+  "kanto-route-5": 1,
+  "kanto-underground-path": 1,
+  "kanto-route-6": 1,
+  "vermilion-city": 1,
+  "kanto-route-11": 1,
+  "digletts-cave": 1,
+  "kanto-route-9": 2,
+  "kanto-route-10": 2,
+  "rock-tunnel": 2,
+  "kanto-route-8": 2,
+  "kanto-route-7": 2,
+  "celadon-city": 2,
+  "pokemon-tower": 2,
+  "saffron-city": 2,
+  "kanto-route-12": 2,
+  "kanto-route-13": 2,
+  "kanto-route-14": 2,
+  "kanto-route-15": 2,
+  "kanto-route-16": 2,
+  "kanto-route-17": 2,
+  "kanto-route-18": 2,
+  "fuchsia-city": 2,
+  "kanto-safari-zone": 2,
+  "kanto-sea-route-19": 5,
+  "kanto-sea-route-20": 5,
+  "kanto-sea-route-21": 5,
+  "seafoam-islands": 5,
+  "cinnabar-island": 5,
+  "pokemon-mansion": 5,
+  "kanto-power-plant": 5,
+  "kanto-route-23": 8,
+  "kanto-victory-road-2": 8,
+  "cerulean-cave": 9,
+  "ss-anne": 1,
+  "one-island": 7,
+  "kindle-road": 7,
+  "treasure-beach": 7,
+  "mt-ember": 7,
+  "cape-brink": 7,
+  "three-isle-port": 7,
+  "bond-bridge": 7,
+  "berry-forest": 7,
+  "four-island": 9,
+  "icefall-cave": 9,
+  "five-island": 9,
+  "five-isle-meadow": 9,
+  "memorial-pillar": 9,
+  "water-labyrinth": 9,
+  "resort-gorgeous": 9,
+  "lost-cave": 9,
+  "outcast-island": 9,
+  "green-path": 9,
+  "water-path": 9,
+  "ruin-valley": 9,
+  "pattern-bush": 9,
+  "kanto-altering-cave": 9,
+  "trainer-tower": 9,
+  "canyon-entrance": 9,
+  "sevault-canyon": 9,
+  "tanoby-ruins": 9,
+  "dilford-chamber": 9,
+  "liptoo-chamber": 9,
+  "monean-chamber": 9,
+  "rixy-chamber": 9,
+  "scufib-chamber": 9,
+  "viapos-chamber": 9,
+  "weepth-chamber": 9,
+  "roaming-kanto": 9,
+  "navel-rock": null,
+  "birth-island": null,
+  "kanto-pokecenter": null
+ },
+ "areas": {
+  "Altering Cave (B)": null,
+  "Altering Cave (C)": null,
+  "Altering Cave (D)": null,
+  "Altering Cave (E)": null,
+  "Altering Cave (F)": null,
+  "Altering Cave (G)": null,
+  "Altering Cave (H)": null,
+  "Altering Cave (I)": null
+ },
+ "methods": {
+  "old-rod": 1,
+  "good-rod": 2,
+  "super-rod": 2,
+  "surf": 5,
+  "rock-smash": 7,
+  "pokeflute": 2
+ },
+ "override": {
+  "mr-mime": [
+   1,
+   "Route 2 — trade (east house, reached via Diglett's Cave)"
+  ]
+ },
+ "exclude": [
+  "mew",
+  "deoxys",
+  "lugia",
+  "ho-oh",
+  "celebi",
+  "jirachi"
+ ],
+ "caveats": "Gym order assumes the usual Brock, Misty, Lt. Surge, Erika, Koga, Sabrina, Blaine, Giovanni; segments are the earliest point an area can be reached. With Cut you can reach Lavender and Celadon through Rock Tunnel before Lt. Surge, so Celadon (Game Corner, Eevee), Saffron (Lapras, Hitmonlee/Hitmonchan; needs the Tea), Pokémon Tower, Snorlax, Cycling Road, Fuchsia and the Safari Zone show from segment 2. Surf needs the Soul Badge (5), so Cinnabar fossils, Seafoam (Articuno) and the Power Plant (Zapdos) start at 5. One, Two and Three Island (Kindle Road, Mt. Ember with Moltres, Berry Forest, Bond Bridge) open after Blaine; Rock Smash is treated as usable from there. Islands Four to Seven, the Tanoby chambers, Cerulean Cave (Mewtwo), the roaming beasts and the Togepi egg are post-game (National Dex). Altering Cave only has Zubat without the Mystery Gift event; Navel Rock, Birth Island and Colosseum bonus-disc gifts are event-only and left out."
+}

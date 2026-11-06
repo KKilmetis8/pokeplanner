@@ -1,0 +1,304 @@
+{
+ "gen": 6,
+ "versions": {
+  "omega-ruby": "Omega Ruby",
+  "alpha-sapphire": "Alpha Sapphire"
+ },
+ "backfill": {
+  "omega-ruby": [
+   "ruby"
+  ],
+  "alpha-sapphire": [
+   "sapphire"
+  ]
+ },
+ "gyms": [
+  [
+   "Roxanne",
+   "rock"
+  ],
+  [
+   "Brawly",
+   "fighting"
+  ],
+  [
+   "Wattson",
+   "electric"
+  ],
+  [
+   "Flannery",
+   "fire"
+  ],
+  [
+   "Norman",
+   "normal"
+  ],
+  [
+   "Winona",
+   "flying"
+  ],
+  [
+   "Tate & Liza",
+   "psychic"
+  ],
+  [
+   "Wallace",
+   "water"
+  ]
+ ],
+ "elite": [
+  [
+   "Sidney",
+   "dark"
+  ],
+  [
+   "Phoebe",
+   "ghost"
+  ],
+  [
+   "Glacia",
+   "ice"
+  ],
+  [
+   "Drake",
+   "dragon"
+  ],
+  [
+   "Steven",
+   null
+  ]
+ ],
+ "starters": [
+  [
+   "treecko",
+   "grovyle",
+   "sceptile"
+  ],
+  [
+   "torchic",
+   "combusken",
+   "blaziken"
+  ],
+  [
+   "mudkip",
+   "marshtomp",
+   "swampert"
+  ]
+ ],
+ "locations": {
+  "hoenn-route-101": 0,
+  "hoenn-route-102": 0,
+  "hoenn-route-103": 0,
+  "hoenn-route-104": 0,
+  "petalburg-city": 0,
+  "petalburg-woods": 0,
+  "rustboro-city": 0,
+  "hoenn-route-116": 0,
+  "rusturf-tunnel": 0,
+  "hoenn-route-115": 0,
+  "dewford-town": 1,
+  "granite-cave": 1,
+  "hoenn-route-106": 1,
+  "slateport-city": 2,
+  "hoenn-route-109": 2,
+  "hoenn-route-110": 2,
+  "hoenn-route-117": 2,
+  "hoenn-route-118": 2,
+  "hoenn-route-111": 4,
+  "hoenn-route-112": 3,
+  "fiery-path": 3,
+  "hoenn-route-113": 3,
+  "hoenn-route-114": 3,
+  "meteor-falls": 3,
+  "jagged-pass": 3,
+  "lavaridge-town": 3,
+  "hoenn-route-105": 5,
+  "hoenn-route-107": 5,
+  "hoenn-route-108": 5,
+  "abandoned-ship": 5,
+  "hoenn-route-119": 5,
+  "fortree-city": 5,
+  "hoenn-route-123": 5,
+  "new-mauville": 5,
+  "hoenn-route-120": 6,
+  "hoenn-route-121": 6,
+  "hoenn-route-122": 6,
+  "mt-pyre": 6,
+  "lilycove-city": 6,
+  "hoenn-safari-zone": 6,
+  "team-aqua-hideout": 6,
+  "team-magma-hideout": 6,
+  "mossdeep-city": 6,
+  "shoal-cave": 6,
+  "hoenn-route-124": 6,
+  "hoenn-route-125": 6,
+  "hoenn-route-126": 6,
+  "hoenn-route-127": 6,
+  "hoenn-route-128": 6,
+  "hoenn-route-129": 6,
+  "hoenn-route-130": 6,
+  "hoenn-route-131": 6,
+  "hoenn-route-132": 6,
+  "hoenn-route-133": 6,
+  "hoenn-route-134": 6,
+  "pacifidlog-town": 6,
+  "mirage-island": 7,
+  "seafloor-cavern": 7,
+  "sootopolis-city": 7,
+  "cave-of-origin": 7,
+  "ancient-tomb": 7,
+  "desert-ruins": 7,
+  "island-cave": 7,
+  "ever-grande-city": 8,
+  "hoenn-victory-road": 8,
+  "sky-pillar": 9,
+  "roaming-hoenn": 9,
+  "southern-island": 7,
+  "hoenn-pokecenter": null,
+  "fallarbor-town": 3,
+  "verdanturf-town": 2,
+  "mossdeep-space-center": 6,
+  "sea-mauville": 5,
+  "scorched-slab": 6,
+  "battle-resort": 9,
+  "mirage-spot-cave": 7,
+  "mirage-spot-forest": 7,
+  "mirage-spot-island": 7,
+  "mirage-spot-mountain": 7,
+  "crescent-isle": 9,
+  "nameless-cavern": 9,
+  "pathless-plain": 9,
+  "trackless-forest": 9,
+  "soaring-in-the-sky": 9,
+  "fabled-cave": 9,
+  "gnarled-den": 9
+ },
+ "areas": {
+  "Granite Cave (B1F)": 2,
+  "Granite Cave (B2F)": 2,
+  "Meteor Falls (back)": 5,
+  "Meteor Falls (B1F)": 8,
+  "Meteor Falls (back/small room)": 8
+ },
+ "methods": {
+  "old-rod": 1,
+  "good-rod": 2,
+  "super-rod": 6,
+  "surf": 5,
+  "rock-smash": 3,
+  "seaweed": 7,
+  "devon-scope": 6,
+  "feebas-tile-fishing": 5,
+  "horde": 0
+ },
+ "conditions": {
+  "story-progress-defeated-groudon-or-kyogre": 7,
+  "item-clear-bell": 9,
+  "item-tidal-bell": 9,
+  "other-nicknamed-cold-item-regice-regirock-registeel3": 9
+ },
+ "override": {
+  "beldum": [
+   9,
+   "Mossdeep City — Steven's house gift (post-game)"
+  ],
+  "wynaut": [
+   3,
+   "Lavaridge Town — gift egg"
+  ],
+  "castform": [
+   5,
+   "Weather Institute (Route 119) — gift"
+  ],
+  "kecleon": [
+   5,
+   "Route 119 — grass"
+  ],
+  "regirock": [
+   7,
+   "Desert Ruins — static (Sealed Chamber puzzle: Dive + Relicanth & Wailord)"
+  ],
+  "regice": [
+   7,
+   "Island Cave — static (Sealed Chamber puzzle: Dive + Relicanth & Wailord)"
+  ],
+  "registeel": [
+   7,
+   "Ancient Tomb — static (Sealed Chamber puzzle: Dive + Relicanth & Wailord)"
+  ],
+  "rayquaza": [
+   9,
+   "Sky Pillar — static (Delta Episode)"
+  ],
+  "deoxys": [
+   9,
+   "Sky Pillar — static (Delta Episode)"
+  ],
+  "pikachu": [
+   2,
+   "Slateport Contest Hall — Cosplay Pikachu gift"
+  ],
+  "togepi": [
+   9,
+   "Lavaridge Town — gift egg (post-game)"
+  ],
+  "heatran": [
+   7,
+   "Scorched Slab — static (after catching Groudon/Kyogre)"
+  ],
+  "chikorita": [
+   9,
+   "Route 101 — gift from Prof. Birch (post-game)"
+  ],
+  "cyndaquil": [
+   9,
+   "Route 101 — gift from Prof. Birch (post-game)"
+  ],
+  "totodile": [
+   9,
+   "Route 101 — gift from Prof. Birch (post-game)"
+  ],
+  "turtwig": [
+   9,
+   "Route 101 — gift from Prof. Birch (post-game)"
+  ],
+  "chimchar": [
+   9,
+   "Route 101 — gift from Prof. Birch (post-game)"
+  ],
+  "piplup": [
+   9,
+   "Route 101 — gift from Prof. Birch (post-game)"
+  ],
+  "snivy": [
+   9,
+   "Route 101 — gift from Prof. Birch (post-game)"
+  ],
+  "tepig": [
+   9,
+   "Route 101 — gift from Prof. Birch (post-game)"
+  ],
+  "oshawott": [
+   9,
+   "Route 101 — gift from Prof. Birch (post-game)"
+  ],
+  "latias": {
+   "omega-ruby": [
+    9,
+    "Southern Island — static (post-game)"
+   ]
+  },
+  "latios": {
+   "alpha-sapphire": [
+    9,
+    "Southern Island — static (post-game)"
+   ]
+  }
+ },
+ "exclude": [
+  "jirachi",
+  "celebi",
+  "mew"
+ ],
+ "caveats": "PokeAPI only has ORAS hordes, gifts and static encounters, so regular wild encounters (grass, surf, fishing, Rock Smash, underwater) are approximated with the Ruby (for Omega Ruby) and Sapphire (for Alpha Sapphire) tables; ORAS changed several tables and adds Pokémon via the DexNav that are missing here. Segments follow route order and HM/item gates (Old Rod after Dewford, Good Rod on Route 118 before gym 3, Rock Smash after badge 3, Surf after badge 5, Devon Scope and Super Rod after badge 6, Dive after badge 7, Waterfall after badge 8). Latios/Latias and the Eon Flute (Mirage spots) are placed after badge 7; both Lati are listed in both versions although the counterpart needs the event-only Eon Ticket. Cosplay Pikachu counts from the first contest in Slateport. Sky Pillar, Rayquaza and Deoxys (Delta Episode), Beldum, Battle Resort, the Lavaridge Togepi egg, the other-region starters and the Mirage-spot/roaming legendaries are post-game. Regis are placed before the Elite Four (the Sealed Chamber needs Dive)."
+}

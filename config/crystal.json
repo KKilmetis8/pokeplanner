@@ -1,0 +1,223 @@
+{
+ "gen": 2,
+ "gyms": [
+  [
+   "Falkner",
+   "flying"
+  ],
+  [
+   "Bugsy",
+   "bug"
+  ],
+  [
+   "Whitney",
+   "normal"
+  ],
+  [
+   "Morty",
+   "ghost"
+  ],
+  [
+   "Chuck",
+   "fighting"
+  ],
+  [
+   "Jasmine",
+   "steel"
+  ],
+  [
+   "Pryce",
+   "ice"
+  ],
+  [
+   "Clair",
+   "dragon"
+  ]
+ ],
+ "elite": [
+  [
+   "Will",
+   "psychic"
+  ],
+  [
+   "Koga",
+   "poison"
+  ],
+  [
+   "Bruno",
+   "fighting"
+  ],
+  [
+   "Karen",
+   "dark"
+  ],
+  [
+   "Lance",
+   "dragon"
+  ]
+ ],
+ "starters": [
+  [
+   "chikorita",
+   "bayleef",
+   "meganium"
+  ],
+  [
+   "cyndaquil",
+   "quilava",
+   "typhlosion"
+  ],
+  [
+   "totodile",
+   "croconaw",
+   "feraligatr"
+  ]
+ ],
+ "versions": {
+  "crystal": "Crystal"
+ },
+ "locations": {
+  "azalea-town": 1,
+  "bell-tower": 7,
+  "blackthorn-city": 7,
+  "burned-tower": 3,
+  "celadon-city": 9,
+  "cerulean-city": 9,
+  "cherrygrove-city": 0,
+  "cianwood-city": 4,
+  "cinnabar-island": 9,
+  "dark-cave": 0,
+  "digletts-cave": 9,
+  "dragons-den": 7,
+  "ecruteak-city": 3,
+  "fuchsia-city": 9,
+  "goldenrod-city": 2,
+  "ice-path": 7,
+  "ilex-forest": 1,
+  "johto-route-29": 0,
+  "johto-route-30": 0,
+  "johto-route-31": 0,
+  "johto-route-32": 1,
+  "johto-route-33": 1,
+  "johto-route-34": 2,
+  "johto-route-35": 2,
+  "johto-route-36": 0,
+  "johto-route-37": 3,
+  "johto-route-38": 3,
+  "johto-route-39": 3,
+  "johto-route-42": 3,
+  "johto-route-43": 3,
+  "johto-route-44": 7,
+  "johto-route-45": 7,
+  "johto-route-46": 0,
+  "johto-sea-route-40": 4,
+  "johto-sea-route-41": 4,
+  "kanto-power-plant": 9,
+  "kanto-route-1": 9,
+  "kanto-route-10": 9,
+  "kanto-route-11": 9,
+  "kanto-route-12": 9,
+  "kanto-route-13": 9,
+  "kanto-route-14": 9,
+  "kanto-route-15": 9,
+  "kanto-route-16": 9,
+  "kanto-route-17": 9,
+  "kanto-route-18": 9,
+  "kanto-route-2": 9,
+  "kanto-route-22": 9,
+  "kanto-route-24": 9,
+  "kanto-route-25": 9,
+  "kanto-route-26": 8,
+  "kanto-route-27": 8,
+  "kanto-route-28": 9,
+  "kanto-route-3": 9,
+  "kanto-route-4": 9,
+  "kanto-route-5": 9,
+  "kanto-route-6": 9,
+  "kanto-route-7": 9,
+  "kanto-route-8": 9,
+  "kanto-route-9": 9,
+  "kanto-sea-route-19": 9,
+  "kanto-sea-route-20": 9,
+  "kanto-sea-route-21": 9,
+  "kanto-victory-road-1": 8,
+  "lake-of-rage": 3,
+  "mt-moon": 9,
+  "mt-mortar": 3,
+  "mt-silver": 9,
+  "national-park": 2,
+  "new-bark-town": 0,
+  "olivine-city": 3,
+  "pallet-town": 9,
+  "pewter-city": 9,
+  "roaming-johto": 3,
+  "rock-tunnel": 9,
+  "ruins-of-alph": 0,
+  "slowpoke-well": 1,
+  "sprout-tower": 0,
+  "team-rocket-hq": 4,
+  "tohjo-falls": 4,
+  "union-cave": 1,
+  "vermilion-city": 9,
+  "violet-city": 0,
+  "viridian-city": 9,
+  "whirl-islands": 7
+ },
+ "areas": {
+  "Dark Cave (Blackthorn City entrance)": 7,
+  "Union Cave (B2F)": 4,
+  "Slowpoke Well (B1F)": 4,
+  "Mount Mortar (Lower Cave)": 4,
+  "Mount Mortar (B1F)": 4,
+  "Mount Mortar (Upper Cave)": 8
+ },
+ "methods": {
+  "old-rod": 1,
+  "good-rod": 3,
+  "super-rod": 9,
+  "surf": 4,
+  "rock-smash": 3,
+  "headbutt-low": 1,
+  "headbutt-normal": 1,
+  "headbutt-high": 1,
+  "headbutt": 1,
+  "squirt-bottle": 3,
+  "pokeflute": 9
+ },
+ "conditions": {
+  "story-progress-awakened-beasts": 3,
+  "other-virtual-console": 9,
+  "swarm-yes": 0
+ },
+ "override": {
+  "togepi": [
+   1,
+   "Violet City — egg from Elm's aide after the Zephyr Badge"
+  ],
+  "eevee": [
+   3,
+   "Goldenrod City — gift from Bill (after meeting him in Ecruteak)"
+  ],
+  "lugia": [
+   9,
+   "Whirl Islands B2F — needs the Silver Wing from Pewter City (post-game)"
+  ],
+  "ho-oh": [
+   7,
+   "Tin Tower roof — Rainbow Wing after catching Suicune, Raikou and Entei"
+  ],
+  "suicune": [
+   7,
+   "Tin Tower 1F — Clear Bell from the Radio Tower Director"
+  ],
+  "dratini": [
+   7,
+   "Dragon's Den — Good Rod/Surf (gift Dratini after Clair's test)"
+  ]
+ },
+ "exclude": [
+  "celebi",
+  "mew"
+ ],
+ "caveats": "Segments are hand-assigned from route order and HM/badge gates: Old Rod (Route 32) and Headbutt after badge 1, Good Rod (Olivine), Rock Smash and the SquirtBottle for Sudowoodo after badge 3, Surf after badge 4, Whirlpool, the Ice Path and Blackthorn after badge 7, Waterfall (Route 27 east, Route 26, Victory Road) after badge 8; the Super Rod and all of Kanto, Mt. Silver and Route 28 count as post-game. Route 32 onward is placed after the Zephyr Badge and Mahogany/Lake of Rage after badge 3 (walkable through Mt. Mortar), which is the earliest access rather than the usual story order. Suicune (Tin Tower, Clear Bell) is at badge 7 and Ho-Oh is shown there too, though it needs all three beasts caught first; Lugia needs the post-game Silver Wing. Raikou and Entei roam from the Burned Tower event on. The Odd Egg (Route 34 Day Care) counts as a badge-2 gift; the Dratini gift comes after Clair's test, but Dratini can already be fished in Dragon's Den. Swarms (triggered by phone contacts) count from their route's segment; Celebi (GS Ball event) and Mew are left out."
+}

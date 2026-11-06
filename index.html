@@ -1,0 +1,131 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Pokémon team planner</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon-192.png">
+<meta name="theme-color" content="#17181a">
+<style>
+:root{--bg:#fff;--fg:#1a1a1a;--mute:#666;--line:#ddd;--on:#2b5fab;--onfg:#fff;--good:#1e7a3a;--bad:#b3261e;color-scheme:light;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#17181a;--fg:#e8e8e8;--mute:#9a9a9a;--line:#333;--on:#6d9be0;--onfg:#0d0d0d;--good:#6cc584;--bad:#ef7a70;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#17181a;--fg:#e8e8e8;--mute:#9a9a9a;--line:#333;--on:#6d9be0;--onfg:#0d0d0d;--good:#6cc584;--bad:#ef7a70;color-scheme:dark}
+*{box-sizing:inherit}
+body{margin:0;background:var(--bg);color:var(--fg);font:14px/1.4 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:1100px;margin:0 auto;padding:12px 16px}
+h1{font-size:18px;margin:0 0 8px}h2{font-size:15px;margin:16px 0 6px}
+.segs{display:flex;flex-wrap:wrap;gap:4px}
+.segs button,.btn{border:1px solid var(--line);background:transparent;color:var(--fg);padding:4px 8px;border-radius:4px;cursor:pointer;font:inherit}
+button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid var(--on);outline-offset:1px}
+.row{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:8px 0}
+input,select{font:inherit;padding:3px 6px;background:var(--bg);color:var(--fg);border:1px solid var(--line);border-radius:4px}
+.grid{display:grid;grid-template-columns:minmax(0,1fr);gap:16px}
+@media(min-width:900px){.grid{grid-template-columns:minmax(0,3fr) minmax(0,2fr)}}
+.scroll{overflow-x:auto}
+table{border-collapse:collapse;width:100%}
+th,td{text-align:left;padding:3px 6px;border-bottom:1px solid var(--line);white-space:nowrap}
+td.w{white-space:normal;color:var(--mute)}
+.mute{color:var(--mute)}.good{color:var(--good);font-weight:600}.bad{color:var(--bad);font-weight:600}
+.list{max-height:70vh;overflow:auto}
+.cov td,.cov th{text-align:center;padding:2px 4px}
+.note{color:var(--mute);font-size:12px;max-width:75ch}
+.chip{display:inline-block;padding:1px 7px;border-radius:999px;font-size:12px;color:#fff;margin:1px 2px 1px 0;text-shadow:0 1px 1px rgba(0,0,0,.35)}
+.chip.unk{background:transparent;color:var(--fg);border:1px dashed var(--mute);text-shadow:none}
+.segs button{border-radius:999px;display:inline-flex;align-items:center;gap:4px;opacity:.55}
+.segs button[aria-pressed="true"]{opacity:1;background:transparent;color:var(--fg);border-color:var(--fg)}
+.used{display:flex;flex-wrap:wrap;gap:4px}
+.used button{border:1px solid var(--line);background:transparent;color:var(--fg);border-radius:999px;padding:2px 8px;cursor:pointer;font:inherit;font-size:12px}
+.sub{display:none;font-size:12px;color:var(--mute);white-space:normal}
+@media(max-width:600px){.wide{display:none}.sub{display:block}#tb td{vertical-align:top}}
+header{display:flex;flex-wrap:wrap;gap:8px;align-items:baseline;justify-content:space-between}
+</style></head><body><main>
+<header><h1 id="title">Pokémon team planner</h1>
+<label class="mute">Game <select id="game" aria-label="Game"></select></label></header>
+<div class="mute">Toggle the stretches of the game you want to catch in. The list shows each Pokémon’s earliest point of availability.</div>
+<div class="segs" id="segs" style="margin-top:8px"></div>
+<div class="row">
+<input id="q" placeholder="Search name" aria-label="Search name">
+<select id="tf" aria-label="Type filter"></select>
+<label><input type="checkbox" id="evo" checked> Include evolutions</label>
+<span class="mute" id="cnt"></span>
+</div>
+<div class="grid">
+<section><div class="list scroll"><table><thead><tr><th></th><th>Pokémon</th><th>Type</th><th class="wide">Earliest</th><th class="wide">How</th></tr></thead><tbody id="tb"></tbody></table></div></section>
+<section>
+<h2 id="th">Team (0/6)</h2><div class="scroll"><table><tbody id="team"></tbody></table></div>
+<h2>Previously used</h2><div class="mute" style="font-size:12px">Removed from the team. Click to add back.</div><div class="used" id="used"></div>
+<h2>Gym matchups</h2><div class="scroll"><table><thead><tr><th>Fight</th><th>Type</th><th>Hit SE (STAB)</th><th>Weak</th></tr></thead><tbody id="gyms"></tbody></table></div>
+<h2>Defensive coverage</h2><div class="mute" style="font-size:12px">Per attacking type: team members weak / resistant (incl. immune).</div>
+<div class="scroll"><table class="cov"><tbody id="def"></tbody></table></div>
+<h2>Offensive STAB coverage</h2><div id="off"></div>
+</section></div>
+<h2>Caveats</h2>
+<p class="note" id="cav"></p>
+<p class="note">General: encounter data from PokeAPI; gym-stretch mapping is hand-assigned and approximate. Evolutions inherit the base form’s stretch and ignore level, item, trade and friendship requirements. Types and the type chart follow the game’s generation. Event-only Pokémon are excluded.</p>
+</main>
+<script>
+const GAMES=[["Gen 1",[["red","Red"],["blue","Blue"],["yellow","Yellow"]]],
+["Gen 2",[["gold","Gold"],["silver","Silver"],["crystal","Crystal"]]],
+["Gen 3",[["ruby","Ruby"],["sapphire","Sapphire"],["emerald","Emerald"],["firered","FireRed"],["leafgreen","LeafGreen"]]],
+["Gen 4",[["diamond","Diamond"],["pearl","Pearl"],["platinum","Platinum"],["heartgold","HeartGold"],["soulsilver","SoulSilver"]]],
+["Gen 5",[["black","Black"],["white","White"],["black-2","Black 2"],["white-2","White 2"]]],
+["Gen 6",[["x","X"],["y","Y"],["omega-ruby","Omega Ruby"],["alpha-sapphire","Alpha Sapphire"]]]];
+const TC={normal:"#9a9a6a",fire:"#e0702a",water:"#4f7fe0",electric:"#d9b417",grass:"#5fa83a",ice:"#5fb8b8",fighting:"#b0302a",poison:"#9a3f9a",ground:"#c4a14e",flying:"#8f7be0",psychic:"#e8507a",bug:"#93a51e",rock:"#a8902e",ghost:"#6a5490",dragon:"#6a3ce8",dark:"#6a5446",steel:"#9a9ab8",fairy:"#d97fb0"};
+const $=id=>document.getElementById(id),cap=s=>s.replace(/(^|-)\w/g,m=>m.toUpperCase()).replace(/-/g,' ');
+const chip=t=>t?`<span class="chip" style="background:${TC[t]}">${cap(t)}</span>`:`<span class="chip unk">?</span>`;
+const tl=t=>t.map(chip).join("");
+const store={get(k,d){try{return JSON.parse(localStorage.getItem(k))??d}catch(e){return d}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
+let G,D,SEG,on,team,used,cache={};
+const eff=(a,ds)=>ds.reduce((m,d)=>m*(G.chart[a][d]??1),1);
+
+$("game").innerHTML=GAMES.map(([g,vs])=>`<optgroup label="${g}">${vs.map(([id,n])=>`<option value="${id}">${n}</option>`).join("")}</optgroup>`).join("");
+$("game").onchange=()=>load($("game").value);
+$("segs").onclick=e=>{const b=e.target.closest("button");if(!b)return;const i=+b.dataset.i;on[i]=!on[i];b.setAttribute("aria-pressed",on[i]);save();draw()};
+["q","tf","evo"].forEach(id=>$(id).oninput=draw);
+$("tb").onclick=e=>{const b=e.target.closest("button");if(b)toggle(b.dataset.n)};
+$("team").onclick=e=>{const b=e.target.closest("button");if(b)toggle(b.dataset.n)};
+$("used").onclick=e=>{const b=e.target.closest("button");if(b&&team.length<6)toggle(b.dataset.n)};
+
+async function load(id){
+ store.set("pkp.game",id);$("game").value=id;
+ if(!cache[id]){$("tb").innerHTML=`<tr><td class="mute">Loading…</td></tr>`;
+  try{cache[id]=await (await fetch(`data/${id}.json`)).json()}catch(e){$("tb").innerHTML=`<tr><td class="bad">Could not load ${id}.</td></tr>`;return}}
+ G=cache[id];D=G.mons;
+ document.title=`Pokémon ${G.name} team planner`;$("title").textContent=document.title;
+ SEG=[...G.gyms.map(([l,t],i)=>`Before ${l} (gym ${i+1})`),"Before Elite Four","Post-game"];
+ const s=store.get("pkp."+id,{});
+ on=s.on||SEG.map((_,i)=>i<9);team=(s.team||[]).filter(n=>D.some(m=>m[0]==n));used=(s.used||[]).filter(n=>D.some(m=>m[0]==n));
+ const segChips=i=>i<8?chip(G.gyms[i][1]):i==8?G.elite.slice(0,4).map(e=>chip(e[1])).join(""):"Post-game";
+ $("segs").innerHTML=SEG.map((s,i)=>`<button data-i="${i}" aria-pressed="${on[i]}" aria-label="${s}" title="${s}">${segChips(i)}</button>`).join("");
+ $("tf").innerHTML=`<option value="">Any type</option>`+G.types.map(t=>`<option value="${t}">${cap(t)}</option>`).join("");
+ $("cav").textContent=G.caveats||"";
+ draw();
+}
+function save(){store.set("pkp."+G.id,{on,team,used})}
+function draw(){
+ const q=$("q").value.toLowerCase(),tf=$("tf").value,ev=$("evo").checked;
+ const S=G.starters||[],pick=S.find(f=>f.some(n=>team.includes(n)));
+ const hide=pick?S.filter(f=>f!==pick).flat():[];
+ const r=D.filter(([n,s,t,w,e])=>on[s]&&!hide.includes(n)&&(!q||n.includes(q))&&(!tf||t.includes(tf))&&(ev||!e));
+ $("cnt").textContent=r.length+" shown";
+ $("tb").innerHTML=r.map(([n,s,t,w])=>{const inT=team.includes(n);return `<tr><td><button class="btn" data-n="${n}" aria-label="${inT?"Remove":"Add"} ${cap(n)}" ${!inT&&team.length>=6?"disabled":""}>${inT?"−":"+"}</button></td><td>${cap(n)}<div class="sub">${SEG[s]}<br>${w}</div></td><td>${tl(t)}</td><td class="wide">${SEG[s]}</td><td class="w wide">${w}</td></tr>`}).join("");
+ drawTeam();
+}
+function toggle(n){const i=team.indexOf(n);if(i>=0){team.splice(i,1);used=used.filter(x=>x!==n);used.unshift(n)}else if(team.length<6){team.push(n);used=used.filter(x=>x!==n)}save();draw()}
+function drawTeam(){
+ const T=G.types,M=team.map(n=>D.find(x=>x[0]==n)).sort((a,b)=>a[1]-b[1]);
+ $("th").textContent=`Team (${M.length}/6)`;
+ $("used").innerHTML=used.length?used.map(n=>`<button data-n="${n}" ${team.length>=6?"disabled":""}>${cap(n)}</button>`).join(""):`<span class="mute">None yet.</span>`;
+ $("team").innerHTML=M.length?M.map(([n,s,t])=>`<tr><td>${cap(n)}</td><td>${tl(t)}</td><td class="mute">${SEG[s]}</td><td><button class="btn" data-n="${n}">Remove</button></td></tr>`).join(""):`<tr><td class="mute">Add Pokémon with + in the list.</td></tr>`;
+ $("gyms").innerHTML=[...G.gyms,...G.elite].map(([g,ty])=>{
+  if(!ty)return `<tr><td>${g}</td><td class="mute">Mixed</td><td class="mute">–</td><td class="mute">–</td></tr>`;
+  const se=M.filter(m=>m[2].some(a=>(G.chart[a]?.[ty]??1)>1)).length,wk=M.filter(m=>eff(ty,m[2])>1).length;
+  return `<tr><td>${g}</td><td>${cap(ty)}</td><td class="${se?'good':'mute'}">${se}</td><td class="${wk>=3?'bad':'mute'}">${wk}</td></tr>`}).join("");
+ const rows=T.map(a=>{const w=M.filter(m=>eff(a,m[2])>1).length,rs=M.filter(m=>eff(a,m[2])<1).length;
+  return `<tr><th>${cap(a)}</th><td class="${w>=3?'bad':''}">${w}</td><td class="${rs?'good':'mute'}">${rs}</td></tr>`});
+ $("def").innerHTML=`<tr><th>Attack</th><th>Weak</th><th>Resist</th></tr>`+rows.join("");
+ const st=[...new Set(M.flatMap(m=>m[2]))],hit=T.filter(d=>st.some(a=>(G.chart[a]?.[d]??1)>1)),miss=T.filter(d=>!hit.includes(d));
+ $("off").innerHTML=M.length?`<div><span class="good">Hits SE:</span> ${hit.map(cap).join(", ")||"none"}</div><div><span class="bad">Nothing SE vs:</span> ${miss.map(cap).join(", ")||"none"}</div>`:`<span class="mute">Add Pokémon to see coverage.</span>`;
+}
+load(store.get("pkp.game","platinum"));
+if("serviceWorker" in navigator)navigator.serviceWorker.register("sw.js").catch(()=>{});
+</script></body></html>

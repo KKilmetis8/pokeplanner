@@ -1,0 +1,204 @@
+{
+ "gen": 6,
+ "versions": {
+  "x": "X",
+  "y": "Y"
+ },
+ "gyms": [
+  [
+   "Viola",
+   "bug"
+  ],
+  [
+   "Grant",
+   "rock"
+  ],
+  [
+   "Korrina",
+   "fighting"
+  ],
+  [
+   "Ramos",
+   "grass"
+  ],
+  [
+   "Clemont",
+   "electric"
+  ],
+  [
+   "Valerie",
+   "fairy"
+  ],
+  [
+   "Olympia",
+   "psychic"
+  ],
+  [
+   "Wulfric",
+   "ice"
+  ]
+ ],
+ "elite": [
+  [
+   "Malva",
+   "fire"
+  ],
+  [
+   "Siebold",
+   "water"
+  ],
+  [
+   "Wikstrom",
+   "steel"
+  ],
+  [
+   "Drasna",
+   "dragon"
+  ],
+  [
+   "Diantha",
+   null
+  ]
+ ],
+ "starters": [
+  [
+   "chespin",
+   "quilladin",
+   "chesnaught"
+  ],
+  [
+   "fennekin",
+   "braixen",
+   "delphox"
+  ],
+  [
+   "froakie",
+   "frogadier",
+   "greninja"
+  ]
+ ],
+ "locations": {
+  "aquacorde-town": 0,
+  "kalos-route-2": 0,
+  "santalune-forest": 0,
+  "kalos-route-3": 0,
+  "kalos-route-4": 1,
+  "lumiose-city": 1,
+  "kalos-route-22": 1,
+  "kalos-route-5": 1,
+  "kalos-route-6": 1,
+  "parfum-palace": 1,
+  "kalos-route-7": 1,
+  "kalos-berry-fields": 1,
+  "connecting-cave": 1,
+  "kalos-route-8": 1,
+  "ambrette-town": 1,
+  "kalos-route-9": 1,
+  "glittering-cave": 1,
+  "cyllage-city": 1,
+  "kalos-route-10": 2,
+  "kalos-route-11": 2,
+  "reflection-cave": 2,
+  "shalour-city": 2,
+  "tower-of-mastery": 3,
+  "kalos-route-12": 3,
+  "azure-bay": 3,
+  "kalos-route-13": 4,
+  "kalos-route-14": 5,
+  "laverre-city": 5,
+  "kalos-route-15": 6,
+  "kalos-route-16": 6,
+  "lost-hotel": 6,
+  "frost-cavern": 6,
+  "kalos-route-17": 6,
+  "team-flare-secret-hq": 7,
+  "couriway-town": 7,
+  "kalos-route-18": 7,
+  "terminus-cave": 7,
+  "kalos-route-19": 7,
+  "kalos-route-20": 7,
+  "pokemon-village": 7,
+  "kalos-route-21": 8,
+  "kalos-victory-road": 8,
+  "roaming-kalos": 9,
+  "sea-spirits-den": 9,
+  "unknown-dungeon": 9,
+  "friend-safari": 9
+ },
+ "areas": {
+  "Terminus Cave (Zygarde's Chamber)": 9
+ },
+ "methods": {
+  "old-rod": 0,
+  "good-rod": 1,
+  "super-rod": 3,
+  "surf": 3,
+  "rock-smash": 1
+ },
+ "conditions": {},
+ "override": {
+  "bulbasaur": [
+   1,
+   "Lumiose City — gift from Prof. Sycamore (choose one Kanto starter)"
+  ],
+  "charmander": [
+   1,
+   "Lumiose City — gift from Prof. Sycamore (choose one Kanto starter)"
+  ],
+  "squirtle": [
+   1,
+   "Lumiose City — gift from Prof. Sycamore (choose one Kanto starter)"
+  ],
+  "tyrunt": [
+   1,
+   "Glittering Cave — Jaw Fossil (choose Jaw or Sail), revived in Ambrette Town"
+  ],
+  "amaura": [
+   1,
+   "Glittering Cave — Sail Fossil (choose Jaw or Sail), revived in Ambrette Town"
+  ],
+  "lucario": [
+   3,
+   "Tower of Mastery — gift after beating Korrina"
+  ],
+  "lapras": [
+   3,
+   "Route 12 — gift (also surfing in Azure Bay / Route 12)"
+  ],
+  "snorlax": [
+   1,
+   "Route 7 — static (wake with the Poké Flute from Parfum Palace)"
+  ],
+  "articuno": [
+   9,
+   "Roaming Kalos — post-game, only if you chose Chespin"
+  ],
+  "zapdos": [
+   9,
+   "Roaming Kalos — post-game, only if you chose Fennekin"
+  ],
+  "moltres": [
+   9,
+   "Roaming Kalos — post-game, only if you chose Froakie"
+  ]
+ },
+ "exclude": [
+  "mew",
+  "celebi",
+  "jirachi",
+  "deoxys",
+  "phione",
+  "manaphy",
+  "darkrai",
+  "shaymin",
+  "arceus",
+  "victini",
+  "keldeo",
+  "meloetta",
+  "genesect",
+  "diancie",
+  "hoopa",
+  "volcanion"
+ ],
+ "caveats": "Segments follow the X/Y story route (Rhyhorn ride after Ambrette, Surf after Shalour, Mamoswine ride before Anistar, Victory Road after the eighth badge). Rod locations are from memory and approximate: Old Rod is treated as available from the start, Good Rod after the third badge, and Super Rod only from Couriway Town (after the seventh badge). Your Kanto starter (Bulbasaur, Charmander or Squirtle) is a separate gift from Professor Sycamore in Lumiose City after the first badge. It is listed as an ordinary gift and is not one of the starter choices. You choose only one of the two fossils (Jaw for Tyrunt, Sail for Amaura) in Glittering Cave. The roaming legendary bird depends on your starter and only appears after the Hall of Fame. Xerneas (X) and Yveltal (Y) are caught before the Elite Four, while Zygarde, Mewtwo and the Friend Safari in Kiloude City are post-game. PokeAPI's X/Y data is incomplete: there are no in-game trades, no Kanto, Hoenn, Sinnoh or Unova fossils, no Kalos Power Plant or overworld Poké Ball statics, and no egg gifts. Some species you can get those ways may therefore be missing or shown later than they should be."
+}

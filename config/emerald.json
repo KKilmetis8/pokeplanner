@@ -1,0 +1,247 @@
+{
+ "gen": 3,
+ "versions": {
+  "emerald": "Emerald"
+ },
+ "gyms": [
+  [
+   "Roxanne",
+   "rock"
+  ],
+  [
+   "Brawly",
+   "fighting"
+  ],
+  [
+   "Wattson",
+   "electric"
+  ],
+  [
+   "Flannery",
+   "fire"
+  ],
+  [
+   "Norman",
+   "normal"
+  ],
+  [
+   "Winona",
+   "flying"
+  ],
+  [
+   "Tate & Liza",
+   "psychic"
+  ],
+  [
+   "Juan",
+   "water"
+  ]
+ ],
+ "elite": [
+  [
+   "Sidney",
+   "dark"
+  ],
+  [
+   "Phoebe",
+   "ghost"
+  ],
+  [
+   "Glacia",
+   "ice"
+  ],
+  [
+   "Drake",
+   "dragon"
+  ],
+  [
+   "Wallace",
+   "water"
+  ]
+ ],
+ "starters": [
+  [
+   "treecko",
+   "grovyle",
+   "sceptile"
+  ],
+  [
+   "torchic",
+   "combusken",
+   "blaziken"
+  ],
+  [
+   "mudkip",
+   "marshtomp",
+   "swampert"
+  ]
+ ],
+ "locations": {
+  "hoenn-route-101": 0,
+  "hoenn-route-102": 0,
+  "hoenn-route-103": 0,
+  "hoenn-route-104": 0,
+  "petalburg-city": 0,
+  "petalburg-woods": 0,
+  "rustboro-city": 0,
+  "hoenn-route-116": 0,
+  "rusturf-tunnel": 0,
+  "hoenn-route-115": 0,
+  "dewford-town": 1,
+  "granite-cave": 1,
+  "hoenn-route-106": 1,
+  "slateport-city": 2,
+  "hoenn-route-109": 2,
+  "hoenn-route-110": 2,
+  "hoenn-route-117": 2,
+  "hoenn-route-118": 2,
+  "hoenn-route-111": 4,
+  "hoenn-route-112": 3,
+  "fiery-path": 3,
+  "hoenn-route-113": 3,
+  "hoenn-route-114": 3,
+  "meteor-falls": 3,
+  "jagged-pass": 3,
+  "lavaridge-town": 3,
+  "hoenn-route-105": 5,
+  "hoenn-route-107": 5,
+  "hoenn-route-108": 5,
+  "abandoned-ship": 5,
+  "hoenn-route-119": 5,
+  "fortree-city": 5,
+  "hoenn-route-123": 5,
+  "new-mauville": 5,
+  "hoenn-route-120": 6,
+  "hoenn-route-121": 6,
+  "hoenn-route-122": 6,
+  "mt-pyre": 6,
+  "lilycove-city": 6,
+  "hoenn-safari-zone": 6,
+  "team-aqua-hideout": 6,
+  "team-magma-hideout": 6,
+  "mossdeep-city": 6,
+  "shoal-cave": 6,
+  "hoenn-route-124": 6,
+  "hoenn-route-125": 6,
+  "hoenn-route-126": 6,
+  "hoenn-route-127": 6,
+  "hoenn-route-128": 6,
+  "hoenn-route-129": 6,
+  "hoenn-route-130": 6,
+  "hoenn-route-131": 6,
+  "hoenn-route-132": 6,
+  "hoenn-route-133": 6,
+  "hoenn-route-134": 6,
+  "pacifidlog-town": 6,
+  "mirage-island": 6,
+  "seafloor-cavern": 7,
+  "sootopolis-city": 7,
+  "cave-of-origin": 7,
+  "ancient-tomb": 7,
+  "desert-ruins": 7,
+  "island-cave": 7,
+  "ever-grande-city": 8,
+  "hoenn-victory-road": 8,
+  "sky-pillar": 7,
+  "roaming-hoenn": 9,
+  "southern-island": null,
+  "hoenn-pokecenter": null,
+  "littleroot-town": 9,
+  "magma-hideout": 6,
+  "mirage-tower": 4,
+  "hoenn-altering-cave": 5,
+  "desert-underpass": 9,
+  "artisan-cave": 9,
+  "hoenn-battle-frontier": 9,
+  "marine-cave": 9,
+  "terra-cave": 9,
+  "birth-island": null,
+  "faraway-island": null,
+  "navel-rock": null
+ },
+ "areas": {
+  "Granite Cave (B1F)": 2,
+  "Granite Cave (B2F)": 2,
+  "Meteor Falls (back)": 5,
+  "Meteor Falls (B1F)": 8,
+  "Meteor Falls (back/small room)": 8,
+  "Safari Zone (expansion north)": 9,
+  "Safari Zone (expansion south)": 9
+ },
+ "methods": {
+  "old-rod": 1,
+  "good-rod": 2,
+  "super-rod": 6,
+  "surf": 5,
+  "rock-smash": 3,
+  "seaweed": 7,
+  "devon-scope": 6,
+  "feebas-tile-fishing": 5
+ },
+ "conditions": {
+  "trade-volbeat": 2,
+  "trade-bagon": 8,
+  "trade-skitty": 9,
+  "item-claw-fossil": 4,
+  "item-root-fossil": 4
+ },
+ "override": {
+  "beldum": [
+   9,
+   "Mossdeep City — Steven's house gift (post-game)"
+  ],
+  "anorith": [
+   4,
+   "Mirage Tower (Route 111 desert) — Claw Fossil (revived in Rustboro)"
+  ],
+  "lileep": [
+   4,
+   "Mirage Tower (Route 111 desert) — Root Fossil (revived in Rustboro)"
+  ],
+  "wynaut": [
+   3,
+   "Lavaridge Town — gift egg"
+  ],
+  "castform": [
+   5,
+   "Weather Institute (Route 119) — gift"
+  ],
+  "kecleon": [
+   5,
+   "Route 119 — grass"
+  ],
+  "regirock": [
+   7,
+   "Desert Ruins — static (Sealed Chamber puzzle: Dive + Relicanth & Wailord)"
+  ],
+  "regice": [
+   7,
+   "Island Cave — static (Sealed Chamber puzzle: Dive + Relicanth & Wailord)"
+  ],
+  "registeel": [
+   7,
+   "Ancient Tomb — static (Sealed Chamber puzzle: Dive + Relicanth & Wailord)"
+  ],
+  "rayquaza": [
+   9,
+   "Sky Pillar — static (post-game)"
+  ],
+  "groudon": [
+   9,
+   "Terra Cave — static (post-game)"
+  ],
+  "kyogre": [
+   9,
+   "Marine Cave — static (post-game)"
+  ]
+ },
+ "exclude": [
+  "jirachi",
+  "celebi",
+  "mew",
+  "deoxys",
+  "lugia",
+  "ho-oh"
+ ],
+ "caveats": "Segments are hand-assigned from route order and HM/item gates (Old Rod after Dewford, Good Rod on Route 118 before gym 3, Rock Smash after badge 3, Go-Goggles for the desert after badge 4, Surf after badge 5, Devon Scope and Super Rod after badge 6, Dive after badge 7, Waterfall after badge 8). Locations that open partway are graded by their main encounter area, so a few mons on mixed routes may be a segment off. Sky Pillar's wild Pokémon count from the story climb before Juan, but Rayquaza, Groudon (Terra Cave) and Kyogre (Marine Cave) are post-game, as are the Safari Zone expansion, Battle Frontier, Artisan Cave, Desert Underpass, the Johto starters and Beldum. Regis are placed before the Elite Four because the Sealed Chamber puzzle only needs Dive, Relicanth and Wailord. Latios/Latias are the post-game roamer (Southern Island needs the event-only Eon Ticket). Event-only Mew, Deoxys, Lugia, Ho-Oh, Jirachi and Celebi are excluded."
+}

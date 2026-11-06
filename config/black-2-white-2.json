@@ -1,0 +1,46 @@
+{
+  "gen": 5,
+  "versions": {"black-2": "Black 2", "white-2": "White 2"},
+  "gyms": [["Cheren", "normal"], ["Roxie", "poison"], ["Burgh", "bug"], ["Elesa", "electric"],
+           ["Clay", "ground"], ["Skyla", "flying"], ["Drayden", "dragon"], ["Marlon", "water"]],
+  "elite": [["Shauntal", "ghost"], ["Grimsley", "dark"], ["Caitlin", "psychic"], ["Marshal", "fighting"], ["Iris", "dragon"]],
+  "starters": [["snivy", "servine", "serperior"], ["tepig", "pignite", "emboar"], ["oshawott", "dewott", "samurott"]],
+  "locations": {
+    "aspertia-city": 0, "unova-route-19": 0, "floccesy-town": 0, "unova-route-20": 0, "floccesy-ranch": 0,
+    "virbank-city": 1, "virbank-complex": 1,
+    "castelia-city": 2, "castelia-sewers": 2,
+    "unova-route-4": 3, "desert-resort": 3, "relic-castle": 3, "unova-route-16": 3, "lostlorn-forest": 3,
+    "unova-route-5": 4, "driftveil-drawbridge": 4, "driftveil-city": 4, "relic-passage": 4,
+    "unova-route-6": 5, "chargestone-cave": 5, "mistralton-cave": 5, "guidance-chamber": 5,
+    "unova-route-17": 5, "unova-route-18": 5, "p2-laboratory": 5,
+    "unova-route-7": 6, "celestial-tower": 6, "twist-mountain": 6, "icirrus-city": 6, "moor-of-icirrus": 6,
+    "unova-route-8": 6, "dragonspiral-tower": 6, "reversal-mountain": 6, "strange-house": 6,
+    "undella-town": 6, "undella-bay": 6, "unova-route-13": 6, "unova-route-12": 6, "village-bridge": 6,
+    "unova-route-11": 6, "unova-route-9": 6, "unova-route-14": 6,
+    "seaside-cave": 7, "unova-route-21": 7, "humilau-city": 7,
+    "unova-route-22": 8, "giant-chasm": 8, "unova-route-23": 8, "unova-victory-road": 8, "unova-victory-road-2": 8,
+    "abundant-shrine": 8,
+    "unova-route-1": 9, "unova-route-2": 9, "unova-route-3": 9, "accumula-town": 9, "striaton-city": 9,
+    "dreamyard": 9, "wellspring-cave": 9, "pinwheel-forest": 9, "nacrene-city": 9, "unova-route-15": 9,
+    "marvelous-bridge": 9, "nature-sanctuary": 9, "clay-tunnel": 9, "underground-ruins": 9,
+    "iron-room": 9, "rocky-mountain-room": 9, "glacier-room": 9
+  },
+  "methods": {"surf": 5, "surf-spots": 5, "super-rod": 9, "super-rod-spots": 9},
+  "conditions": {
+    "story-progress-quake-badge": 5, "story-progress-juniper-cave-of-being": 9,
+    "special-encounter-couldnt-capture-before": 9, "other-captured-reshiram-or-zekrom": 9,
+    "other-regirock-regice-registeel-in-party": 9, "item-dark-stone": 9, "item-light-stone": 9,
+    "item-lunar-wing": 9, "item-ice-key": 9, "item-iron-key": 9
+  },
+  "override": {
+    "kyurem": [9, "Giant Chasm — static (post-game)"],
+    "cobalion": [9, "Route 13 — static (post-game)"],
+    "virizion": [9, "Route 11 — static (post-game)"],
+    "terrakion": [9, "Route 22 — static (post-game)"],
+    "heatran": [9, "Reversal Mountain — static (Magma Stone, post-game)"],
+    "dratini": [9, "Floccesy Town — gift (post-game)"],
+    "gible": [9, "Floccesy Town — gift (post-game)"]
+  },
+  "exclude": [],
+  "caveats": "Black 2/White 2 mix old and new species from the start; segments follow the story route Aspertia → Virbank → Castelia → Nimbasa → Driftveil → Mistralton → Lentimas/Undella/Lacunosa → Opelucid → Humilau → Giant Chasm → Victory Road. Surf counts from segment 5 (Cheren on Route 6, after the Quake Badge), so Route 17/18 and the P2 Laboratory start there. The Super Rod comes from Cedric Juniper only after the Hall of Fame, and the west side past Skyarrow Bridge (Pinwheel Forest, Nacrene, Striaton, Dreamyard, Routes 1–3, Accumula) only opens post-game. Route 7/Twist Mountain/Icirrus/Dragonspiral are treated as open after the Jet Badge, and Abundant Shrine as needing Waterfall near the end of the story; both are approximate. Hidden Grottoes count from when their route opens, though their contents are random and refill slowly. Legendaries (Swords of Justice, Kyurem, Lake trio, Regis, Latias/Latios, Heatran, Cresselia, Reshiram/Zekrom) and the Floccesy Dratini/Gible gifts are post-game, and fossils are only revived in Nacrene, so they are post-game too. Seasons do not gate anything."
+}

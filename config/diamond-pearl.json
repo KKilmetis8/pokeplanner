@@ -1,0 +1,244 @@
+{
+ "gen": 4,
+ "versions": {
+  "diamond": "Diamond",
+  "pearl": "Pearl"
+ },
+ "gyms": [
+  [
+   "Roark",
+   "rock"
+  ],
+  [
+   "Gardenia",
+   "grass"
+  ],
+  [
+   "Maylene",
+   "fighting"
+  ],
+  [
+   "Crasher Wake",
+   "water"
+  ],
+  [
+   "Fantina",
+   "ghost"
+  ],
+  [
+   "Byron",
+   "steel"
+  ],
+  [
+   "Candice",
+   "ice"
+  ],
+  [
+   "Volkner",
+   "electric"
+  ]
+ ],
+ "elite": [
+  [
+   "Aaron",
+   "bug"
+  ],
+  [
+   "Bertha",
+   "ground"
+  ],
+  [
+   "Flint",
+   "fire"
+  ],
+  [
+   "Lucian",
+   "psychic"
+  ],
+  [
+   "Cynthia",
+   null
+  ]
+ ],
+ "starters": [
+  [
+   "turtwig",
+   "grotle",
+   "torterra"
+  ],
+  [
+   "chimchar",
+   "monferno",
+   "infernape"
+  ],
+  [
+   "piplup",
+   "prinplup",
+   "empoleon"
+  ]
+ ],
+ "locations": {
+  "twinleaf-town": 0,
+  "sinnoh-route-201": 0,
+  "lake-verity": 0,
+  "sinnoh-route-202": 0,
+  "sinnoh-route-203": 0,
+  "oreburgh-gate": 0,
+  "oreburgh-city": 0,
+  "oreburgh-mine": 0,
+  "sinnoh-route-204": 0,
+  "ravaged-path": 1,
+  "floaroma-meadow": 1,
+  "valley-windworks": 1,
+  "sinnoh-route-205": 1,
+  "eterna-forest": 1,
+  "eterna-city": 1,
+  "sinnoh-route-211": 1,
+  "sinnoh-route-207": 1,
+  "sinnoh-route-206": 2,
+  "wayward-cave": 2,
+  "sinnoh-route-208": 2,
+  "hearthome-city": 2,
+  "old-chateau": 2,
+  "sinnoh-route-209": 2,
+  "lost-tower": 2,
+  "solaceon-ruins": 2,
+  "sinnoh-route-210": 2,
+  "sinnoh-route-215": 2,
+  "sinnoh-route-212": 2,
+  "mt-coronet": 2,
+  "sinnoh-route-214": 3,
+  "valor-lakefront": 3,
+  "ruin-maniac-cave": 3,
+  "maniac-tunnel": 3,
+  "sinnoh-route-213": 3,
+  "pastoria-city": 3,
+  "great-marsh": 3,
+  "celestic-town": 4,
+  "sinnoh-route-218": 5,
+  "canalave-city": 5,
+  "iron-island": 5,
+  "fuego-ironworks": 5,
+  "sinnoh-route-219": 5,
+  "sinnoh-sea-route-220": 5,
+  "sinnoh-route-221": 5,
+  "lake-valor": 6,
+  "sinnoh-route-216": 6,
+  "sinnoh-route-217": 6,
+  "acuity-lakefront": 6,
+  "lake-acuity": 6,
+  "snowpoint-city": 6,
+  "spear-pillar": 7,
+  "roaming-sinnoh": 0,
+  "sinnoh-route-222": 7,
+  "sunyshore-city": 7,
+  "sinnoh-sea-route-223": 8,
+  "sinnoh-victory-road": 8,
+  "sinnoh-pokemon-league": 8,
+  "sendoff-spring": 9,
+  "turnback-cave": 9,
+  "trophy-garden": 9,
+  "snowpoint-temple": 9,
+  "stark-mountain": 9,
+  "resort-area": 9,
+  "sinnoh-route-224": 9,
+  "sinnoh-route-225": 9,
+  "sinnoh-sea-route-226": 9,
+  "sinnoh-route-227": 9,
+  "sinnoh-route-228": 9,
+  "sinnoh-route-229": 9,
+  "sinnoh-sea-route-230": 9,
+  "newmoon-island": null,
+  "flower-paradise": null,
+  "sinnoh-hall-of-origin-1": null,
+  "sinnoh-pokemart": null
+ },
+ "areas": {
+  "Lake Verity (after Galactic intervention)": 6,
+  "Oreburgh Gate (B1F)": 1,
+  "Road 204 (north, towards Floaroma Town)": 1,
+  "Road 210 (west, towards Celestic Town)": 4,
+  "Road 211 (east, towards Celestic Town)": 4,
+  "Road 212 (east, towards Pastoria City)": 3,
+  "Wayward Cave (1F)": 6,
+  "Mount Coronet (1F Road 211)": 1,
+  "Mount Coronet (1F Road 216)": 6,
+  "Mount Coronet (2F)": 6,
+  "Mount Coronet (3F)": 6,
+  "Mount Coronet (B1F)": 6,
+  "Mount Coronet (1F from exterior)": 7,
+  "Mount Coronet (4F)": 7,
+  "Mount Coronet (4F small room)": 7,
+  "Mount Coronet (5F)": 7,
+  "Mount Coronet (6F)": 7,
+  "Mount Coronet (exterior snowfall)": 7,
+  "Mount Coronet (exterior blizzard)": 7,
+  "Lake Valor Cavern": 7,
+  "Lake Acuity Cavern": 7
+ },
+ "methods": {
+  "old-rod": 0,
+  "good-rod": 2,
+  "super-rod": 9,
+  "surf": 5,
+  "honey-tree": 1,
+  "feebas-tile-fishing": 5
+ },
+ "conditions": {
+  "story-progress-before-national-dex": 0,
+  "story-progress-defeat-mars": 1,
+  "story-progress-beat-team-galactic-iron-island": 6,
+  "story-progress-beat-galactic-coronet": 7,
+  "story-progress-cure-eldritch-nightmares": 9,
+  "great-marsh-daily-slot-1-of-32": 0,
+  "great-marsh-daily-slot-2-of-32": 0,
+  "great-marsh-daily-slot-3-of-32": 0,
+  "great-marsh-daily-slot-5-of-32": 0,
+  "item-skull-fossil": 1,
+  "item-armor-fossil": 1,
+  "item-claw-fossil": 9,
+  "item-dome-fossil": 9,
+  "item-helix-fossil": 9,
+  "item-old-amber": 9,
+  "item-root-fossil": 9,
+  "item-odd-keystone": 2,
+  "other-talked-to-32-people-underground": 1,
+  "other-regirock-regice-registeel-in-party": 9,
+  "backlot-mentioned": 9,
+  "backlot-not-mentioned": 9
+ },
+ "override": {
+  "cranidos": {
+   "pearl": [
+    9,
+    "Oreburgh City (Mining Museum) — fossil (Skull Fossil after National Dex)"
+   ]
+  },
+  "shieldon": {
+   "diamond": [
+    9,
+    "Oreburgh City (Mining Museum) — fossil (Armor Fossil after National Dex)"
+   ]
+  },
+  "uxie": [
+   7,
+   "Lake Acuity Cavern — static (after Spear Pillar)"
+  ],
+  "azelf": [
+   7,
+   "Lake Valor Cavern — static (after Spear Pillar)"
+  ],
+  "giratina": [
+   9,
+   "Turnback Cave — static (post-game)"
+  ]
+ },
+ "exclude": [
+  "darkrai",
+  "shaymin",
+  "arceus",
+  "manaphy",
+  "phione"
+ ],
+ "caveats": "Segments are the earliest point an encounter is reachable, judged from HM badges (Rock Smash after Coal, Cut after Forest, Defog after Fen, Surf after Relic = 5 badges, Strength after Mine, Rock Climb after Icicle, Waterfall after Beacon), the Bicycle after the Galactic Eterna Building, the Good Rod on Route 209 and the Super Rod in the post-game Fight Area. Swarms, the Poké Radar, dual-slot GBA encounters, Trophy Garden, anything needing the National Dex, the other fossils, Rotom, Eevee, Snowpoint Temple, Stark Mountain, the Battle Zone routes and Giratina (Turnback Cave) all count as post-game; Great Marsh slots tagged as daily count from Pastoria unless they need the National Dex. Dialga (Diamond) / Palkia (Pearl), Uxie, Azelf and roaming Mesprit come after Spear Pillar, before Volkner. The Skull (Cranidos) and Armor (Shieldon) fossils from the Underground are version-split before the National Dex, but are shown in both versions. Mt. Coronet floors, Lake Valor and the Victory Road side passages are assigned by area and are approximate; evolutions are shown from the base form's segment regardless of level, stone or trade requirements."
+}

@@ -1,0 +1,144 @@
+{
+ "gen": 1,
+ "versions": {
+  "yellow": "Yellow"
+ },
+ "gyms": [
+  [
+   "Brock",
+   "rock"
+  ],
+  [
+   "Misty",
+   "water"
+  ],
+  [
+   "Lt. Surge",
+   "electric"
+  ],
+  [
+   "Erika",
+   "grass"
+  ],
+  [
+   "Koga",
+   "poison"
+  ],
+  [
+   "Sabrina",
+   "psychic"
+  ],
+  [
+   "Blaine",
+   "fire"
+  ],
+  [
+   "Giovanni",
+   "ground"
+  ]
+ ],
+ "elite": [
+  [
+   "Lorelei",
+   "ice"
+  ],
+  [
+   "Bruno",
+   "fighting"
+  ],
+  [
+   "Agatha",
+   "ghost"
+  ],
+  [
+   "Lance",
+   "dragon"
+  ],
+  [
+   "Rival",
+   null
+  ]
+ ],
+ "starters": [
+  [
+   "pikachu",
+   "raichu"
+  ]
+ ],
+ "locations": {
+  "pallet-town": 0,
+  "kanto-route-1": 0,
+  "viridian-city": 0,
+  "kanto-route-22": 0,
+  "kanto-route-2": 0,
+  "viridian-forest": 0,
+  "kanto-route-3": 1,
+  "mt-moon": 1,
+  "kanto-route-4": 1,
+  "cerulean-city": 1,
+  "kanto-route-24": 1,
+  "kanto-route-25": 1,
+  "kanto-route-5": 1,
+  "kanto-underground-path": 1,
+  "kanto-route-6": 1,
+  "vermilion-city": 1,
+  "kanto-route-11": 1,
+  "digletts-cave": 1,
+  "kanto-route-9": 2,
+  "kanto-route-10": 2,
+  "rock-tunnel": 2,
+  "kanto-route-8": 2,
+  "kanto-route-7": 2,
+  "celadon-city": 2,
+  "pokemon-tower": 2,
+  "saffron-city": 2,
+  "kanto-route-12": 2,
+  "kanto-route-13": 2,
+  "kanto-route-14": 2,
+  "kanto-route-15": 2,
+  "kanto-route-16": 2,
+  "kanto-route-17": 2,
+  "kanto-route-18": 2,
+  "fuchsia-city": 2,
+  "kanto-safari-zone": 2,
+  "kanto-sea-route-19": 5,
+  "kanto-sea-route-20": 5,
+  "kanto-sea-route-21": 5,
+  "seafoam-islands": 5,
+  "cinnabar-island": 5,
+  "pokemon-mansion": 5,
+  "kanto-power-plant": 5,
+  "kanto-route-23": 8,
+  "kanto-victory-road-2": 8,
+  "cerulean-cave": 9
+ },
+ "methods": {
+  "old-rod": 1,
+  "good-rod": 2,
+  "super-rod": 2,
+  "surf": 5,
+  "pokeflute": 2
+ },
+ "override": {
+  "mr-mime": [
+   1,
+   "Route 2 — trade (east house, reached via Diglett's Cave)"
+  ],
+  "bulbasaur": [
+   1,
+   "Cerulean City — gift (needs a friendly Pikachu)"
+  ],
+  "charmander": [
+   1,
+   "Route 24 — gift"
+  ],
+  "squirtle": [
+   3,
+   "Vermilion City — gift from Officer Jenny after the Thunder Badge"
+  ]
+ },
+ "exclude": [
+  "mew"
+ ],
+ "caveats": "Gym order assumes the usual Brock, Misty, Lt. Surge, Erika, Koga, Sabrina, Blaine, Giovanni; Gen 1 is open after the Cascade Badge, so segments are the earliest point an area can be reached, not where a typical playthrough gets there. With Cut (Cascade Badge) you can go through Rock Tunnel to Lavender and Celadon before Lt. Surge, so Celadon (Game Corner prizes, Eevee), Saffron (Silph Co. Lapras, Dojo Hitmonlee/Hitmonchan), Pokémon Tower (Silph Scope), Snorlax (Poké Flute), Cycling Road, Fuchsia and the Safari Zone all show from segment 2. Surf needs the Soul Badge (Koga, gym 5), so the sea routes, Seafoam Islands, Cinnabar (fossil revival) and the Power Plant start at 5. Route 23 and Victory Road (Moltres) need all eight badges, and Cerulean Cave (Mewtwo) is post-game. Mew is event-only and excluded. Pikachu is the only starter; Bulbasaur (Cerulean, only if Pikachu likes you), Charmander (Route 24) and Squirtle (Vermilion, after Lt. Surge) are one-time gifts, so in a single save you get all three only if you meet each condition."
+}

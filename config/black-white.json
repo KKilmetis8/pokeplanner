@@ -1,0 +1,220 @@
+{
+ "gen": 5,
+ "versions": {
+  "black": "Black",
+  "white": "White"
+ },
+ "gyms": [
+  [
+   "Cilan/Chili/Cress",
+   null
+  ],
+  [
+   "Lenora",
+   "normal"
+  ],
+  [
+   "Burgh",
+   "bug"
+  ],
+  [
+   "Elesa",
+   "electric"
+  ],
+  [
+   "Clay",
+   "ground"
+  ],
+  [
+   "Skyla",
+   "flying"
+  ],
+  [
+   "Brycen",
+   "ice"
+  ],
+  [
+   "Drayden/Iris",
+   "dragon"
+  ]
+ ],
+ "elite": [
+  [
+   "Shauntal",
+   "ghost"
+  ],
+  [
+   "Grimsley",
+   "dark"
+  ],
+  [
+   "Caitlin",
+   "psychic"
+  ],
+  [
+   "Marshal",
+   "fighting"
+  ],
+  [
+   "N / Ghetsis",
+   null
+  ]
+ ],
+ "starters": [
+  [
+   "snivy",
+   "servine",
+   "serperior"
+  ],
+  [
+   "tepig",
+   "pignite",
+   "emboar"
+  ],
+  [
+   "oshawott",
+   "dewott",
+   "samurott"
+  ]
+ ],
+ "locations": {
+  "nuvema-town": 0,
+  "unova-route-1": 0,
+  "unova-route-2": 0,
+  "striaton-city": 0,
+  "dreamyard": 0,
+  "unova-route-3": 1,
+  "wellspring-cave": 1,
+  "nacrene-city": 1,
+  "pinwheel-forest": 2,
+  "castelia-city": 2,
+  "unova-route-4": 3,
+  "desert-resort": 3,
+  "relic-castle": 3,
+  "unova-route-16": 3,
+  "lostlorn-forest": 3,
+  "unova-route-5": 4,
+  "driftveil-drawbridge": 4,
+  "driftveil-city": 4,
+  "cold-storage": 4,
+  "unova-route-6": 5,
+  "chargestone-cave": 5,
+  "mistralton-cave": 6,
+  "guidance-chamber": 6,
+  "unova-route-7": 6,
+  "celestial-tower": 6,
+  "twist-mountain": 6,
+  "icirrus-city": 6,
+  "moor-of-icirrus": 6,
+  "unova-route-8": 6,
+  "unova-route-17": 6,
+  "unova-route-18": 6,
+  "p2-laboratory": 6,
+  "dragonspiral-tower": 7,
+  "unova-route-9": 7,
+  "unova-route-10": 8,
+  "unova-victory-road": 8,
+  "trial-chamber": 8,
+  "ns-castle": 8,
+  "challengers-cave": 9,
+  "unova-route-11": 9,
+  "unova-route-12": 9,
+  "unova-route-13": 9,
+  "unova-route-14": 9,
+  "unova-route-15": 9,
+  "village-bridge": 9,
+  "undella-town": 9,
+  "undella-bay": 9,
+  "abundant-shrine": 9,
+  "giant-chasm": 9,
+  "marvelous-bridge": 9,
+  "liberty-garden": 9,
+  "team-flare-secret-hq": 9
+ },
+ "areas": {
+  "Relic Castle (C)": 9,
+  "Relic Castle (D)": 9,
+  "Dreamyard (B1F)": 9
+ },
+ "methods": {
+  "surf": 6,
+  "surf-spots": 6,
+  "super-rod": 9,
+  "super-rod-spots": 9
+ },
+ "conditions": {
+  "defeated-ghetsis": 9,
+  "special-encounter-couldnt-capture-before": 9,
+  "item-plume-fossil": 3,
+  "item-cover-fossil": 3,
+  "item-armor-fossil": 9,
+  "item-claw-fossil": 9,
+  "item-dome-fossil": 9,
+  "item-helix-fossil": 9,
+  "item-old-amber": 9,
+  "item-root-fossil": 9,
+  "item-skull-fossil": 9
+ },
+ "override": {
+  "scraggy": [
+   3,
+   "Route 4 — grass"
+  ],
+  "cobalion": [
+   6,
+   "Guidance Chamber (Mistralton Cave) — static"
+  ],
+  "virizion": [
+   6,
+   "Rumination Field (Pinwheel Forest) — static, after meeting Cobalion"
+  ],
+  "terrakion": [
+   8,
+   "Trial Chamber (Victory Road) — static, after meeting Cobalion"
+  ],
+  "raticate": [
+   9,
+   "Dreamyard — dark grass"
+  ],
+  "kricketune": [
+   9,
+   "Dreamyard — dark grass"
+  ],
+  "ledian": [
+   9,
+   "Dreamyard — dark grass"
+  ],
+  "ariados": [
+   9,
+   "Dreamyard — dark grass"
+  ],
+  "venomoth": [
+   9,
+   "Dreamyard — dark grass"
+  ],
+  "zekrom": {
+   "white": [
+    8,
+    "N's Castle — static"
+   ]
+  },
+  "tornadus": {
+   "black": [
+    9,
+    "Unova — roaming (post-game)"
+   ]
+  },
+  "thundurus": {
+   "white": [
+    9,
+    "Unova — roaming (post-game)"
+   ]
+  }
+ },
+ "exclude": [
+  "victini",
+  "zorua",
+  "zoroark"
+ ],
+ "caveats": "Black/White keep every pre-Unova species out of the main story, so older-generation Pokémon only appear from segment 9: after N's Castle and the credits, when the east side (Routes 11–15, Undella, Village Bridge, Abundant Shrine, Giant Chasm) and Looker's Super Rod open up. Surf counts from segment 6 (Alder hands it over after the Skyla badge), so Route 17/18, the P2 Laboratory, the Larvesta egg and Mistralton Cave's Cobalion start there; Virizion and Terrakion also need Cobalion seen first. Reshiram/Zekrom count as segment 8 (N's Castle). The Striaton monkey you receive is the one strong against your starter, the Dreamyard Musharna needs a Friday after Ghetsis, only one of Archen/Tirtouga is available per save, and Tornadus/Thundurus roam post-game (the source data files them under an odd location name). Event-only Victini, Zorua and Zoroark are left out. Seasons do not gate anything."
+}
